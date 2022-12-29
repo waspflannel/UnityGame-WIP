@@ -1,0 +1,556 @@
+fileFormatVersion: 2
+guid: 96826861f0e0c4a4594c24aebb0e7212
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1978707978806593757
+    second: TX Props_0
+  - first:
+      213: -4746224472117266517
+    second: TX Props_1
+  - first:
+      213: 4334242479205817162
+    second: TX Props_2
+  - first:
+      213: 6286687536768951764
+    second: TX Props_3
+  - first:
+      213: 4826855114610044307
+    second: TX Props_4
+  - first:
+      213: -1428708048385831469
+    second: TX Props_5
+  - first:
+      213: -1264371203132490004
+    second: TX Props_6
+  - first:
+      213: 5149286634510447697
+    second: TX Props_7
+  - first:
+      213: -3680518950676972392
+    second: TX Props_8
+  - first:
+      213: 3060436805951418750
+    second: TX Props_9
+  - first:
+      213: -859513755973794298
+    second: TX Props_10
+  - first:
+      213: -3949213220010832002
+    second: TX Props_11
+  - first:
+      213: -1533463876049055087
+    second: TX Props_12
+  - first:
+      213: 1051301343007766354
+    second: TX Props_13
+  - first:
+      213: 3529921112015662998
+    second: TX Props_14
+  - first:
+      213: -8005923643620191441
+    second: TX Props_15
+  - first:
+      213: 6045510324929769632
+    second: TX Props_16
+  - first:
+      213: -1165778088226280915
+    second: TX Props_17
+  - first:
+      213: 7188039792758864882
+    second: TX Props_18
+  - first:
+      213: -7413813968713174127
+    second: TX Props_19
+  - first:
+      213: -1186342117432654068
+    second: TX Props_20
+  - first:
+      213: -6849483116748837249
+    second: TX Props_21
+  - first:
+      213: -2163105754527607079
+    second: TX Props_22
+  - first:
+      213: 916492929206708356
+    second: TX Props_23
+  - first:
+      213: 6799779285072348893
+    second: TX Props_24
+  - first:
+      213: -5485413844462568078
+    second: TX Props_25
+  - first:
+      213: -3346543787538410223
+    second: TX Props_26
+  - first:
+      213: -7869482481960106409
+    second: TX Props_27
+  - first:
+      213: 1270479632158244026
+    second: TX Props_28
+  - first:
+      213: -2594264052573895922
+    second: TX Props_29
+  - first:
+      213: 8808217552398723399
+    second: TX Props_30
+  - first:
+      213: 175937259390095809
+    second: TX Props_31
+  - first:
+      213: -1091147464267397355
+    second: TX Props_32
+  - first:
+      213: -1807716754569855313
+    second: TX Props_33
+  - first:
+      213: 912855357614513927
+    second: TX Props_34
+  - first:
+      213: -6568481390458680246
+    second: TX Props_35
+  - first:
+      213: 7388503698291035636
+    second: TX Props_36
+  - first:
+      213: -3526906408505785437
+    second: TX Props_37
+  - first:
+      213: -137612848341414727
+    second: TX Props_38
+  - first:
+      213: -9188652585898921079
+    second: TX Props_39
+  - first:
+      213: 4963560728300808135
+    second: TX Props_40
+  - first:
+      213: -2290064878625095150
+    second: TX Props_41
+  - first:
+      213: 2679863423283401720
+    second: TX Props_42
+  - first:
+      213: 4037136158352757955
+    second: TX Props_43
+  - first:
+      213: -4725852135258441693
+    second: TX Props_44
+  - first:
+      213: 3965377167729571953
+    second: TX Props_45
+  - first:
+      213: 9018729057510950640
+    second: TX Props_46
+  - first:
+      213: 1765707885380466773
+    second: TX Props_47
+  - first:
+      213: 5966473068272983084
+    second: TX Props_48
+  - first:
+      213: 491907057074443852
+    second: TX Props_49
+  - first:
+      213: 4042411042510048081
+    second: TX Props_50
+  - first:
+      213: 1838313524879157533
+    second: TX Props_51
+  - first:
+      213: 1435152747246214799
+    second: TX Props_52
+  - first:
+      213: -6675287661300316775
+    second: TX Props_53
+  - first:
+      213: 1661347738091617250
+    second: TX Props_54
+  - first:
+      213: 2598466162016173086
+    second: TX Props_55
+  - first:
+      213: 8407960208514143070
+    second: TX Props_56
+  - first:
+      213: 9103151021840492251
+    second: TX Props_57
+  - first:
+      213: -1035219878935324619
+    second: TX Props_58
+  - first:
+      213: -2838875630360821923
+    second: TX Props_59
+  - first:
+      213: 1408049208071379053
+    second: TX Props_60
+  - first:
+      213: 6152562892134642942
+    second: TX Props_61
+  - first:
+      213: 3102783782240346008
+    second: TX Props_62
+  - first:
+      213: -5833004292279309259
+    second: TX Props_63
+  - first:
+      213: 7971857575272505914
+    second: TX Props_64
+  - first:
+      213: 5927101279119583744
+    second: TX Props_65
+  - first:
+      213: -4557567944476518560
+    second: TX Props_66
+  - first:
+      213: -1190863027966116757
+    second: TX Props_67
+  - first:
+      213: -8887677809547901196
+    second: TX Props_68
+  - first:
+      213: 2637964873614970638
+    second: TX Props_69
+  - first:
+      213: -3898274856990692012
+    second: TX Props_70
+  - first:
+      213: 6214450030318755164
+    second: TX Props_71
+  - first:
+      213: 570729770515240520
+    second: TX Props_72
+  - first:
+      213: 4316490926215721324
+    second: TX Props_73
+  - first:
+      213: -3999286900894165545
+    second: TX Props_74
+  - first:
+      213: -1035921390122288056
+    second: TX Props_75
+  - first:
+      213: 6234491549498285718
+    second: TX Props_76
+  - first:
+      213: -6659849518562363250
+    second: TX Props_77
+  - first:
+      213: 415937304228223959
+    second: TX Props_78
+  - first:
+      213: -8891496296474654459
+    second: TX Props_79
+  - first:
+      213: 6414158257932276995
+    second: TX Props_80
+  - first:
+      213: 3703317621151322524
+    second: TX Props_81
+  - first:
+      213: -7870301986247025527
+    second: TX Props_82
+  - first:
+      213: -914853044242822148
+    second: TX Props_83
+  - first:
+      213: 8496815146339704963
+    second: TX Props_84
+  - first:
+      213: 5318017260411159532
+    second: TX Props_85
+  - first:
+      213: 5373189502474914176
+    second: TX Props_86
+  - first:
+      213: -2409590507664918141
+    second: TX Props_87
+  - first:
+      213: -2525139518481299257
+    second: TX Props_88
+  - first:
+      213: -2322940866848325838
+    second: TX Props_89
+  - first:
+      213: -8408831297930878989
+    second: TX Props_90
+  - first:
+      213: 4277989499100462223
+    second: TX Props_91
+  - first:
+      213: -3053653760079126718
+    second: TX Props_92
+  - first:
+      213: 174304925425072980
+    second: TX Props_93
+  - first:
+      213: 7277397221489782763
+    second: TX Props_94
+  - first:
+      213: -7171221541553182936
+    second: TX Props_95
+  - first:
+      213: -1931567211476378845
+    second: TX Props_96
+  - first:
+      213: -9137066408565918330
+    second: TX Props_97
+  - first:
+      213: -5008178222614219163
+    second: TX Props_98
+  - first:
+      213: 1092549142983728953
+    second: TX Props_99
+  - first:
+      213: 1155769742418164102
+    second: TX Props_100
+  - first:
+      213: -3261057917428619412
+    second: TX Props_101
+  - first:
+      213: 2418553506524654990
+    second: TX Props_102
+  - first:
+      213: 6002533258895375314
+    second: TX Props_103
+  - first:
+      213: 8625652900410433439
+    second: TX Props_104
+  - first:
+      213: -7447667685419445384
+    second: TX Props_105
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TX Props_7
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 449
+        width: 32
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15479a879e0f57740800000000000000
+      internalID: 5149286634510447697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Props_25
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 416
+        width: 37
+        height: 75
+      alignment: 9
+      pivot: {x: 0.48280707, y: 0.32611206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -13.5, y: -34.5}
+        - {x: -13.5, y: -33.5}
+        - {x: -14.5, y: -33.5}
+        - {x: -14.5, y: -32.5}
+        - {x: -15.5, y: -32.5}
+        - {x: -15.5, y: -31.5}
+        - {x: -16.5, y: -31.5}
+        - {x: -16.5, y: -30.5}
+        - {x: -17.5, y: -30.5}
+        - {x: -17.5, y: -25.5}
+        - {x: -18.5, y: -25.5}
+        - {x: -18.5, y: -13.5}
+        - {x: -17.5, y: -13.5}
+        - {x: -17.5, y: -12.5}
+        - {x: -16.5, y: -12.5}
+        - {x: -16.5, y: -11.5}
+        - {x: -15.5, y: -11.5}
+        - {x: -15.5, y: -10.5}
+        - {x: -14.5, y: -10.5}
+        - {x: -14.5, y: -9.5}
+        - {x: 14.5, y: -9.5}
+        - {x: 17.5, y: -12.5}
+        - {x: 18.5, y: -13.5}
+        - {x: 18.5, y: -25.5}
+        - {x: 17.5, y: -30.5}
+        - {x: 14.5, y: -34.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27d7cc2eb25efd3b0800000000000000
+      internalID: -5485413844462568078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Props_46
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 352
+        width: 32
+        height: 45
+      alignment: 9
+      pivot: {x: 0.5038748, y: 0.41659817}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -11, y: -17.5}
+        - {x: -11, y: -1.5}
+        - {x: 11, y: -1.5}
+        - {x: 11, y: -17.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f60f666b46f82d70800000000000000
+      internalID: 9018729057510950640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Props_50
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 321
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.47592664, y: 0.54707336}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -16}
+        - {x: -4, y: -9}
+        - {x: 2, y: -9}
+        - {x: 2, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15b8de0fc67891830800000000000000
+      internalID: 4042411042510048081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
