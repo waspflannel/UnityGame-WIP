@@ -41,7 +41,8 @@ public class Movement : MonoBehaviour
 
 
         if(movement.y != 0 && movement.x != 0){
-            rb.MovePosition(rb.position + movement * speed/2 * Time.fixedDeltaTime);
+            float currSpeed = speed/1.4142f;
+            rb.MovePosition(rb.position + movement * currSpeed * Time.fixedDeltaTime);
         }
         else{
             rb.MovePosition(rb.position + movement * speed * Time.fixedDeltaTime);
