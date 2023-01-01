@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
+using UnityEngine.Tilemaps;
 
 public class PlayerInfo : MonoBehaviour
 {
@@ -18,6 +20,10 @@ public class PlayerInfo : MonoBehaviour
     public EnergyBar energyBar;
 
     public bool vulnerable = true;
+
+    public GameObject [] spikes;
+
+    //private Vector2 boxSize = new Vector2(.2f, 1f); //.1 wide by 1 tall
 
     // Start is called before the first frame update
     void Start()
@@ -54,9 +60,11 @@ public class PlayerInfo : MonoBehaviour
             useEnergy(10f);
         if(Input.GetMouseButtonDown(1))
             increaseEnergy(5f);
+
+        CheckSpikes();
     }
 
-    void takeDamage(int dmg){
+    public void takeDamage(int dmg){
         if(vulnerable){
             currentHealth -= dmg;
             healthBar.setHealth(currentHealth);
@@ -119,4 +127,14 @@ public class PlayerInfo : MonoBehaviour
         energyBar.changeMaxEnergy(maxEnergy, currentEnergy);
         energyBar.addEnergy(energy);
     }
+
+    public void CheckSpikes(){
+        foreach (GameObject spike in spikes)
+        {
+            if(spike.transform.GetComponent<Spikes>().isOpen){
+                takeDamage(5);
+                return;
+            }
+        }
+    }   
 }

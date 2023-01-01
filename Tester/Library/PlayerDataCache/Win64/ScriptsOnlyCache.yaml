@@ -6,7 +6,9 @@ ScriptsOnlyBuild:
     - HealthBar
     - ManaBar
     - Movement
+    - Plates
     - PlayerInfo
+    - Spikes
     - cameraMovement
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
@@ -140,93 +142,97 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1742}
     - Class: 114
-      Script: {instanceID: 2374}
+      Script: {instanceID: 2224}
     - Class: 114
-      Script: {instanceID: 2470}
+      Script: {instanceID: 2376}
     - Class: 114
-      Script: {instanceID: 2620}
+      Script: {instanceID: 2472}
     - Class: 114
-      Script: {instanceID: 3072}
+      Script: {instanceID: 2622}
     - Class: 114
-      Script: {instanceID: 3104}
+      Script: {instanceID: 3074}
     - Class: 114
-      Script: {instanceID: 3206}
+      Script: {instanceID: 3106}
     - Class: 114
-      Script: {instanceID: 3276}
+      Script: {instanceID: 3208}
     - Class: 114
-      Script: {instanceID: 3344}
+      Script: {instanceID: 3278}
     - Class: 114
-      Script: {instanceID: 3370}
+      Script: {instanceID: 3346}
     - Class: 114
-      Script: {instanceID: 3438}
+      Script: {instanceID: 3372}
     - Class: 114
-      Script: {instanceID: 3568}
+      Script: {instanceID: 3440}
     - Class: 114
-      Script: {instanceID: 3694}
+      Script: {instanceID: 3570}
     - Class: 114
-      Script: {instanceID: 3738}
+      Script: {instanceID: 3696}
     - Class: 114
-      Script: {instanceID: 4014}
+      Script: {instanceID: 3740}
     - Class: 114
-      Script: {instanceID: 4126}
+      Script: {instanceID: 4016}
     - Class: 114
-      Script: {instanceID: 4462}
+      Script: {instanceID: 4128}
     - Class: 114
-      Script: {instanceID: 4614}
+      Script: {instanceID: 4464}
     - Class: 114
-      Script: {instanceID: 5254}
+      Script: {instanceID: 4616}
     - Class: 114
-      Script: {instanceID: 5272}
+      Script: {instanceID: 5256}
     - Class: 114
-      Script: {instanceID: 5294}
+      Script: {instanceID: 5274}
     - Class: 114
-      Script: {instanceID: 5304}
+      Script: {instanceID: 5296}
     - Class: 114
-      Script: {instanceID: 5320}
+      Script: {instanceID: 5306}
     - Class: 114
-      Script: {instanceID: 5380}
+      Script: {instanceID: 5322}
     - Class: 114
-      Script: {instanceID: 5478}
+      Script: {instanceID: 5384}
     - Class: 114
-      Script: {instanceID: 5584}
+      Script: {instanceID: 5482}
     - Class: 114
-      Script: {instanceID: 5586}
+      Script: {instanceID: 5588}
     - Class: 114
-      Script: {instanceID: 5610}
+      Script: {instanceID: 5590}
     - Class: 114
-      Script: {instanceID: 5888}
+      Script: {instanceID: 5614}
     - Class: 114
-      Script: {instanceID: 6018}
+      Script: {instanceID: 5892}
     - Class: 114
-      Script: {instanceID: 6172}
+      Script: {instanceID: 6022}
     - Class: 114
-      Script: {instanceID: 6250}
+      Script: {instanceID: 6176}
     - Class: 114
-      Script: {instanceID: 6256}
+      Script: {instanceID: 6254}
     - Class: 114
-      Script: {instanceID: 6358}
+      Script: {instanceID: 6260}
     - Class: 114
-      Script: {instanceID: 6392}
+      Script: {instanceID: 6362}
     - Class: 114
-      Script: {instanceID: 6438}
+      Script: {instanceID: 6396}
     - Class: 114
-      Script: {instanceID: 6516}
+      Script: {instanceID: 6442}
     - Class: 114
-      Script: {instanceID: 6626}
+      Script: {instanceID: 6520}
     - Class: 114
-      Script: {instanceID: 6768}
+      Script: {instanceID: 6630}
     - Class: 114
-      Script: {instanceID: 6888}
+      Script: {instanceID: 6772}
     - Class: 114
-      Script: {instanceID: 6944}
+      Script: {instanceID: 6892}
     - Class: 114
-      Script: {instanceID: 7580}
+      Script: {instanceID: 6948}
     - Class: 114
-      Script: {instanceID: 7912}
+      Script: {instanceID: 7586}
     - Class: 114
-      Script: {instanceID: 8074}
+      Script: {instanceID: 7918}
     - Class: 114
-      Script: {instanceID: 8162}
+      Script: {instanceID: 8080}
+    - Class: 114
+      Script: {instanceID: 8098}
+    - Class: 114
+      Script: {instanceID: 8170}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -394,6 +400,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: d17a54f311e2de7c608ffd2afb7bd083
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Plates
   - hash:
       serializedVersion: 2
       Hash: 91d258529db2b5060a913f2afcea1a21
@@ -582,7 +594,7 @@ ScriptsOnlyBuild:
     className: BasicKnightMovement
   - hash:
       serializedVersion: 2
-      Hash: 0021f04ade62b78773719b4a16fb67bb
+      Hash: 61639809ff02cb821b7bc37ea834c03a
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerInfo
@@ -1512,6 +1524,12 @@ ScriptsOnlyBuild:
     className: Movement
   - hash:
       serializedVersion: 2
+      Hash: 5324df86a8acbfb707a629b88f05d6c1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Spikes
+  - hash:
+      serializedVersion: 2
       Hash: 66a76d307baa3e8eb65d877c961f1b43
     assemblyName: Cinemachine.dll
     namespaceName: 
@@ -1555,4 +1573,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/SampleScene.unity
-  playerPath: C:/Users/12265/Documents/GitHub/UnityGame2/Tester/Game.exe
+  playerPath: D:/Documents/UnityGame/Game.exe
