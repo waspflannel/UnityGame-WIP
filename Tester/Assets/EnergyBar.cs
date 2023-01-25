@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class EnergyBar : MonoBehaviour
 {
@@ -9,6 +10,13 @@ public class EnergyBar : MonoBehaviour
     public Image fill;
     public RectTransform rt;
     public float SCALE = 1;
+
+    [SerializeField]
+    private TextMeshProUGUI text;
+
+    void Update(){
+        text.SetText($"{(int)GameObject.Find("Player").GetComponent<PlayerInfo>().currentEnergy}/{GameObject.Find("Player").GetComponent<PlayerInfo>().maxEnergy}");
+    }
 
     public void setEnergy(float energy){
         slider.value = energy;
