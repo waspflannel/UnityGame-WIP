@@ -76,6 +76,7 @@ public class Movement : MonoBehaviour
 
     public void dashMove(){
             rb.AddForce(movementVector * speed * dashDistance, ForceMode2D.Impulse);
+            rb.AddForce(movementVector * speed * dashDistance, ForceMode2D.Impulse);
     }
 
 }

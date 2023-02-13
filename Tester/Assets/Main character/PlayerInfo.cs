@@ -191,13 +191,13 @@ public class PlayerInfo : MonoBehaviour
 
     public void dashMove(InputAction.CallbackContext context)
     {
-            if(context.performed && canDash() && currentEnergy >= 10f)
-            {
-                movement.dashMove();
-                useEnergy(10f);
-                dashCD = maxDashCD;
-                vulnerable = 8;
-            }
+        if(context.performed && canDash() && currentEnergy >= 10f)
+        {
+            movement.dashMove();
+            useEnergy(10f);
+            dashCD = maxDashCD;
+            vulnerable = 6;
+        }
     }
 
     private void initializeStats()
