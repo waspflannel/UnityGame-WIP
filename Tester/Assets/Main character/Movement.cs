@@ -12,8 +12,6 @@ public class Movement : MonoBehaviour
 
     public float dashDistance;
 
-    private bool dashing = false;
-
     public PlayerInfo PI;
 
     private PlayerControls controls;
