@@ -3,6 +3,7 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - EnergyBar
     - Flame
+    - FollowScript
     - HealthBar
     - ManaBar
     - Movement
@@ -73,7 +74,6 @@ ScriptsOnlyBuild:
     - UnityEngine.Rendering.UI.DebugUIHandlerVector4
     - UnityEngine.Rendering.UI.UIFoldout
     Unity.RenderPipelines.Universal.Editor.dll:
-    - UnityEditor.Experimental.Rendering.Universal.Light2DEditor
     - UnityEditor.Rendering.Universal.UniversalProjectSettings
     Unity.RenderPipelines.Universal.Runtime.dll:
     - UnityEngine.Experimental.Rendering.Universal.Light2D
@@ -159,117 +159,119 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1620}
     - Class: 114
-      Script: {instanceID: 1628}
+      Script: {instanceID: 1630}
     - Class: 114
-      Script: {instanceID: 1664}
+      Script: {instanceID: 1666}
     - Class: 114
-      Script: {instanceID: 1780}
+      Script: {instanceID: 1782}
     - Class: 114
-      Script: {instanceID: 2294}
+      Script: {instanceID: 2296}
     - Class: 114
-      Script: {instanceID: 2312}
+      Script: {instanceID: 2314}
     - Class: 114
-      Script: {instanceID: 2476}
+      Script: {instanceID: 2478}
     - Class: 114
-      Script: {instanceID: 2580}
+      Script: {instanceID: 2582}
     - Class: 114
-      Script: {instanceID: 2754}
+      Script: {instanceID: 2756}
     - Class: 114
-      Script: {instanceID: 3268}
+      Script: {instanceID: 3270}
     - Class: 114
-      Script: {instanceID: 3384}
+      Script: {instanceID: 3386}
     - Class: 114
-      Script: {instanceID: 3464}
+      Script: {instanceID: 3466}
     - Class: 114
-      Script: {instanceID: 3542}
+      Script: {instanceID: 3544}
     - Class: 114
-      Script: {instanceID: 3570}
+      Script: {instanceID: 3572}
     - Class: 114
-      Script: {instanceID: 3646}
+      Script: {instanceID: 3648}
     - Class: 114
-      Script: {instanceID: 3790}
+      Script: {instanceID: 3792}
     - Class: 114
-      Script: {instanceID: 3922}
+      Script: {instanceID: 3924}
     - Class: 114
-      Script: {instanceID: 3976}
+      Script: {instanceID: 3978}
     - Class: 114
-      Script: {instanceID: 4030}
+      Script: {instanceID: 4032}
     - Class: 114
-      Script: {instanceID: 4052}
+      Script: {instanceID: 4054}
     - Class: 114
-      Script: {instanceID: 4278}
+      Script: {instanceID: 4280}
     - Class: 114
-      Script: {instanceID: 4416}
+      Script: {instanceID: 4418}
     - Class: 114
-      Script: {instanceID: 4578}
+      Script: {instanceID: 4580}
     - Class: 114
-      Script: {instanceID: 4778}
+      Script: {instanceID: 4780}
     - Class: 114
-      Script: {instanceID: 4894}
+      Script: {instanceID: 4896}
     - Class: 114
-      Script: {instanceID: 4946}
+      Script: {instanceID: 4948}
     - Class: 114
-      Script: {instanceID: 5636}
+      Script: {instanceID: 5020}
     - Class: 114
-      Script: {instanceID: 5658}
+      Script: {instanceID: 5640}
     - Class: 114
-      Script: {instanceID: 5682}
+      Script: {instanceID: 5662}
     - Class: 114
-      Script: {instanceID: 5694}
+      Script: {instanceID: 5686}
     - Class: 114
-      Script: {instanceID: 5710}
+      Script: {instanceID: 5698}
     - Class: 114
-      Script: {instanceID: 5772}
+      Script: {instanceID: 5714}
     - Class: 114
-      Script: {instanceID: 5778}
+      Script: {instanceID: 5776}
     - Class: 114
-      Script: {instanceID: 5890}
+      Script: {instanceID: 5782}
     - Class: 114
-      Script: {instanceID: 6002}
+      Script: {instanceID: 5894}
     - Class: 114
-      Script: {instanceID: 6004}
+      Script: {instanceID: 6006}
     - Class: 114
-      Script: {instanceID: 6028}
+      Script: {instanceID: 6008}
     - Class: 114
-      Script: {instanceID: 6136}
+      Script: {instanceID: 6032}
     - Class: 114
-      Script: {instanceID: 6328}
+      Script: {instanceID: 6140}
     - Class: 114
-      Script: {instanceID: 6470}
+      Script: {instanceID: 6332}
     - Class: 114
-      Script: {instanceID: 6640}
+      Script: {instanceID: 6474}
     - Class: 114
-      Script: {instanceID: 6652}
+      Script: {instanceID: 6644}
     - Class: 114
-      Script: {instanceID: 6728}
+      Script: {instanceID: 6656}
     - Class: 114
-      Script: {instanceID: 6734}
+      Script: {instanceID: 6732}
     - Class: 114
-      Script: {instanceID: 6850}
+      Script: {instanceID: 6738}
     - Class: 114
-      Script: {instanceID: 6888}
+      Script: {instanceID: 6854}
     - Class: 114
-      Script: {instanceID: 6940}
+      Script: {instanceID: 6892}
     - Class: 114
-      Script: {instanceID: 7022}
+      Script: {instanceID: 6944}
     - Class: 114
-      Script: {instanceID: 7142}
+      Script: {instanceID: 7026}
     - Class: 114
-      Script: {instanceID: 7300}
+      Script: {instanceID: 7146}
     - Class: 114
-      Script: {instanceID: 7434}
+      Script: {instanceID: 7304}
     - Class: 114
-      Script: {instanceID: 7500}
+      Script: {instanceID: 7438}
     - Class: 114
-      Script: {instanceID: 8214}
+      Script: {instanceID: 7504}
     - Class: 114
-      Script: {instanceID: 8578}
+      Script: {instanceID: 8218}
     - Class: 114
-      Script: {instanceID: 8756}
+      Script: {instanceID: 8582}
     - Class: 114
-      Script: {instanceID: 8774}
+      Script: {instanceID: 8760}
     - Class: 114
-      Script: {instanceID: 8854}
+      Script: {instanceID: 8778}
+    - Class: 114
+      Script: {instanceID: 8858}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1019,6 +1021,12 @@ ScriptsOnlyBuild:
     className: CinemachinePOV
   - hash:
       serializedVersion: 2
+      Hash: 7b1809351aaa47b2c071c9d1a01ca7cf
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FollowScript
+  - hash:
+      serializedVersion: 2
       Hash: 285f5d7c369d870b93f4a2cbcec118e4
     assemblyName: Unity.InputSystem.dll
     namespaceName: UnityEngine.InputSystem.Editor
@@ -1235,7 +1243,7 @@ ScriptsOnlyBuild:
     className: ColorCurves
   - hash:
       serializedVersion: 2
-      Hash: 42c77bd3d4c79b9000a0fc0a51bc5f01
+      Hash: 65186a6f2670f2a31c722453d900aed6
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: flameBoss

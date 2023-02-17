@@ -32,7 +32,7 @@ public class Flame : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D hit)
     {
-        if(hit.name != "Boss" && hit.name != "Flame(Clone)")
+        if(hit.tag != "NotCollide")
         {
             Destroy(gameObject);
         }

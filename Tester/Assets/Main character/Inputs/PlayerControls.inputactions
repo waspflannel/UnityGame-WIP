@@ -165,17 +165,6 @@
                     "action": "MovementInput",
                     "isComposite": false,
                     "isPartOfComposite": true
-                },
-                {
-                    "name": "",
-                    "id": "e67b0f85-de1b-4d42-b569-2c779087c54a",
-                    "path": "<Keyboard>/t",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Test",
-                    "isComposite": false,
-                    "isPartOfComposite": false
                 }
             ]
         }

@@ -17835,7 +17835,7 @@ GameObject:
   - component: {fileID: 677074761}
   m_Layer: 0
   m_Name: Pressure Plate
-  m_TagString: Untagged
+  m_TagString: NotCollide
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40201,7 +40201,7 @@ GameObject:
   - component: {fileID: 1765987452}
   m_Layer: 0
   m_Name: Boss
-  m_TagString: Untagged
+  m_TagString: NotCollide
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40323,7 +40323,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   firePointCenter: {fileID: 309890896}
   flame: {fileID: -9027314390973294449, guid: 3d59126bc050cbc42a51bba6c70af45b, type: 3}
+  follow: {fileID: 4798322629400145958, guid: df5784b52d10e614d8850952b4fe67ef, type: 3}
   animator: {fileID: 1765987452}
+  attackCD: 150
+  aggroRange: 10
 --- !u!114 &1765987451
 MonoBehaviour:
   m_ObjectHideFlags: 0
