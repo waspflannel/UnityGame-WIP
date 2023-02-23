@@ -36,12 +36,7 @@ public class Movement : MonoBehaviour
 
     public void move()
     {
-        movementVector = controls.GamePlay.MovementInput.ReadValue<Vector2>();
-
-        if(movementVector.x + movementVector.y > 1)
-        {
-            movementVector.Normalize();
-        }
+        movementVector = controls.GamePlay.MovementInput.ReadValue<Vector2>().normalized;
 
         rb.AddForce(movementVector * speed, ForceMode2D.Impulse);
 

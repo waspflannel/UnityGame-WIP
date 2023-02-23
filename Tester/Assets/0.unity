@@ -7689,7 +7689,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 309890895}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.7, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1765987447}
@@ -9924,7 +9924,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 510658598}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.07, y: 0.14, z: 0}
+  m_LocalPosition: {x: 30.21, y: 0.33, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -10046,7 +10046,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.814
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.3
+  m_Intensity: 0.5
   m_LightVolumeOpacity: 0
   m_ApplyToSortingLayers: e389fe3d191e3af00000000039c47b7e43d32054
   m_LightCookieSprite: {fileID: 0}
@@ -10217,7 +10217,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 4
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -40285,8 +40285,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.047799267, y: 0.26854458}
-  m_Size: {x: 2.1449368, y: 1.2887391}
+  m_Offset: {x: 0.015561447, y: -0.13978697}
+  m_Size: {x: 2.5425336, y: 2.1054463}
   m_Direction: 1
 --- !u!50 &1765987449
 Rigidbody2D:
@@ -40323,10 +40323,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   firePointCenter: {fileID: 309890896}
   flame: {fileID: -9027314390973294449, guid: 3d59126bc050cbc42a51bba6c70af45b, type: 3}
+  explodeFlame: {fileID: 6236531130354759202, guid: 6ff8598134dcc7a49bf43bd363186df6, type: 3}
   follow: {fileID: 4798322629400145958, guid: df5784b52d10e614d8850952b4fe67ef, type: 3}
   animator: {fileID: 1765987452}
-  attackCD: 150
-  aggroRange: 10
+  attackCD: 200
+  aggroRange: {x: 6, y: 5}
 --- !u!114 &1765987451
 MonoBehaviour:
   m_ObjectHideFlags: 0

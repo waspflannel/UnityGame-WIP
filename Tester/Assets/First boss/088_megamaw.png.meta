@@ -14,6 +14,30 @@ TextureImporter:
   - first:
       213: 8203915158975121710
     second: 088_megamaw_5
+  - first:
+      213: 7660135283650173236
+    second: 088_megamaw_6
+  - first:
+      213: -2351072851792025954
+    second: 088_megamaw_7
+  - first:
+      213: 433541819969467173
+    second: 088_megamaw_8
+  - first:
+      213: 3246583627042540730
+    second: 088_megamaw_9
+  - first:
+      213: 517907405642249568
+    second: 088_megamaw_10
+  - first:
+      213: -4876759704433312543
+    second: 088_megamaw_11
+  - first:
+      213: -8295523668625825278
+    second: 088_megamaw_12
+  - first:
+      213: -5441146637717571981
+    second: 088_megamaw_13
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -122,8 +146,8 @@ TextureImporter:
         y: 672
         width: 128
         height: 128
-      alignment: 9
-      pivot: {x: 0.5, y: 0.3}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -139,12 +163,12 @@ TextureImporter:
       name: 088_megamaw_1
       rect:
         serializedVersion: 2
-        x: 129
+        x: 128
         y: 672
         width: 128
         height: 128
-      alignment: 9
-      pivot: {x: 0.5, y: 0.3}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -161,11 +185,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 256
-        y: 673
+        y: 672
         width: 128
-        height: 127
-      alignment: 9
-      pivot: {x: 0.5, y: 0.3}
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -181,12 +205,12 @@ TextureImporter:
       name: 088_megamaw_3
       rect:
         serializedVersion: 2
-        x: 382
+        x: 384
         y: 672
         width: 128
         height: 128
-      alignment: 9
-      pivot: {x: 0.5, y: 0.3}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -206,8 +230,8 @@ TextureImporter:
         y: 672
         width: 128
         height: 128
-      alignment: 9
-      pivot: {x: 0.5, y: 0.3}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -227,8 +251,8 @@ TextureImporter:
         y: 672
         width: 128
         height: 128
-      alignment: 9
-      pivot: {x: 0.5, y: 0.3}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -236,6 +260,174 @@ TextureImporter:
       bones: []
       spriteID: e298722fe592ad170800000000000000
       internalID: 8203915158975121710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 088_megamaw_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 420
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 439976194744e4a60800000000000000
+      internalID: 7660135283650173236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 088_megamaw_7
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 420
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e962fd3a2bf4f5fd0800000000000000
+      internalID: -2351072851792025954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 088_megamaw_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 420
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5237e8efcff340600800000000000000
+      internalID: 433541819969467173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 088_megamaw_9
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 420
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abc487f8b9e2e0d20800000000000000
+      internalID: 3246583627042540730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 088_megamaw_10
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 420
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 065b9db9a0aff2700800000000000000
+      internalID: 517907405642249568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 088_megamaw_11
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 420
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ec305213e4425cb0800000000000000
+      internalID: -4876759704433312543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 088_megamaw_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 292
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20266b9cc2160ec80800000000000000
+      internalID: -8295523668625825278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 088_megamaw_13
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 292
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 376780026f92d74b0800000000000000
+      internalID: -5441146637717571981
       vertices: []
       indices: 
       edges: []
