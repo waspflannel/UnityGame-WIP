@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - NotCollide
   layers:
   - Default
   - TransparentFX
@@ -38,6 +39,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Outside
+    uniqueID: 1040091619
+    locked: 0
   - name: Background
     uniqueID: 4030340633
     locked: 0
@@ -46,4 +50,7 @@ TagManager:
     locked: 0
   - name: Foreground
     uniqueID: 2122040377
+    locked: 0
+  - name: OutsideAbove
+    uniqueID: 1411437379
     locked: 0

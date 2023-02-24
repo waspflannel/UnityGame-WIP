@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class ManaBar : MonoBehaviour
 {
@@ -9,6 +10,13 @@ public class ManaBar : MonoBehaviour
     public Image fill;
     public RectTransform rt;
     public float SCALE = 1;
+
+    [SerializeField]
+    private TextMeshProUGUI text;
+
+    void Update(){
+            text.SetText($"{GameObject.Find("Player").GetComponent<PlayerInfo>().currentMana}/{GameObject.Find("Player").GetComponent<PlayerInfo>().maxMana}");
+    }
 
     public void setMana(int mana){
         slider.value = mana;

@@ -4,19 +4,19 @@ using System.Collections.Generic;
 using System;
 
 
+
 public class Spikes : Open
 {
-
-    public override void Interact(){
-        if(isOpen){
+    public override void Interact()
+    {
+        if(isOpen)
+        {
             sr.sprite = closed;
         }
-        else{
+        else
+        {
             sr.sprite = open;
         }
         isOpen = !isOpen;
     }
-
-
-    
 }

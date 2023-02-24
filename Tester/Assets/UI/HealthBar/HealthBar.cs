@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class HealthBar : MonoBehaviour
 {
@@ -9,6 +10,10 @@ public class HealthBar : MonoBehaviour
     public Gradient gradient;
     public Image fill;
     public RectTransform rt;
+
+    [SerializeField]
+    private TextMeshProUGUI text;
+    
     float xCord;
     public float SCALE = 1;
     public int i = 0;
@@ -19,6 +24,7 @@ public class HealthBar : MonoBehaviour
 
     void Update()
     {
+        text.SetText($"{GameObject.Find("Player").GetComponent<PlayerInfo>().currentHealth}/{GameObject.Find("Player").GetComponent<PlayerInfo>().maxHealth}");
         if(i<waitTime)
             i++;
         if(i == waitTime && flashes > 0){
@@ -26,17 +32,13 @@ public class HealthBar : MonoBehaviour
             i=0;
             flashes--;
         }
-
-        if(flashes == 0)
-            GameObject.Find("Player").GetComponent<PlayerInfo>().vulnerable = true;
-        else
-            GameObject.Find("Player").GetComponent<PlayerInfo>().vulnerable = false;
     }
     public void flash()
     {
         fill.enabled = !fill.enabled;
         i=0;
         flashes = 5;
+        GameObject.Find("Player").GetComponent<PlayerInfo>().vulnerable = 30;
     }
 
 
